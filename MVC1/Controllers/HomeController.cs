@@ -60,6 +60,35 @@ namespace MVC1.Controllers
 
         }
 
+        [HttpGet("users")]
+        public IActionResult Users()
+        {
+            User devin = new User
+            {
+                FirstName = "devin",
+                LastName = "castro"
+            };
+
+            User christy = new User
+            {
+                FirstName = "Christy",
+                LastName = "Hanamure"
+            };
+
+            User patrick= new User
+            {
+                FirstName = "Patrick",
+                LastName = "Bates"
+            };
+
+            List<User> users = new List<User>
+            {
+                devin, christy, patrick
+            };
+
+            return View(users);
+
+        }
 
         public IActionResult Privacy()
         {

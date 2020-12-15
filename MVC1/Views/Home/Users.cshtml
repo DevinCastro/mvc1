@@ -1,0 +1,8 @@
+﻿@using MVC1.Models;
+@model List<User>;
+
+@foreach(var user in Model)
+{
+    <p>@user.FirstName  @user.LastName</p>
+}
+
