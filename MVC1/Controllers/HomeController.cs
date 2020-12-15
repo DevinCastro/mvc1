@@ -47,6 +47,19 @@ namespace MVC1.Controllers
 
         }
 
+        [HttpGet("user")]
+        public IActionResult User()
+        {
+            User devin = new User
+            {
+                FirstName = "devin",
+                LastName = "castro"
+            };
+
+            return View(devin);
+
+        }
+
 
         public IActionResult Privacy()
         {
