@@ -18,10 +18,35 @@ namespace MVC1.Controllers
             _logger = logger;
         }
 
+       
+        [HttpGet("")]
         public IActionResult Index()
         {
-            return View();
+            User someUser = new User()
+            {
+                FirstName = "Sally",
+                LastName = "Sanderson"
+            };
+          
+            return View(someUser);
+            
         }
+
+        [HttpGet("string")]
+        public IActionResult String()
+        {
+            string[] names= new string[]
+            {
+                "devin",
+                "christy",
+                "patrick",
+                "sebastian"
+            };
+
+            return View(names);
+
+        }
+
 
         public IActionResult Privacy()
         {

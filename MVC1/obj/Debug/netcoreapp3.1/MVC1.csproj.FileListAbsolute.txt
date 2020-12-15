@@ -35,3 +35,4 @@ C:\Users\dcroc\Documents\code\MVC1\MVC1\obj\Debug\netcoreapp3.1\MVC1.dll
 C:\Users\dcroc\Documents\code\MVC1\MVC1\obj\Debug\netcoreapp3.1\MVC1.pdb
 C:\Users\dcroc\Documents\code\MVC1\MVC1\obj\Debug\netcoreapp3.1\MVC1.genruntimeconfig.cache
 C:\Users\dcroc\Documents\code\MVC1\MVC1\obj\Debug\netcoreapp3.1\MVC1.csproj.CopyComplete
+C:\Users\dcroc\Documents\code\MVC1\MVC1\obj\Debug\netcoreapp3.1\Razor\Views\Home\String.cshtml.g.cs
